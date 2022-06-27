@@ -1,0 +1,122 @@
+.chat {
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(180, 177, 170);
+    width: 100vw;
+    height: 100vh;
+}
+
+.chat h1 {
+    width: 400px;
+    height: 30px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.messages {
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    border: 0.5px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: blueviolet;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.write-message {
+    width: 100.3%;
+    position: absolute;
+    bottom: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.write-message input {
+    width: 80%;
+    height: 50px;
+    border: 0.5px;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+.write-message button {
+    width: 20%;
+    height: 53px;
+    background-color: aqua;
+    border: 0.5px;
+    border-radius: 0;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+.messages-info {
+    margin: 30px;
+    width: 56%;
+    background-color:rgb(19, 228, 36);
+    border: 0.5px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: blueviolet;
+    word-break: break-word;
+}
+
+.messages-info p {
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items:flex-end;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+
+#me .messages-info{
+    background-color: rgb(135, 165, 231);
+    justify-content: flex-start;
+}
+
+#you {
+    justify-content: flex-end;
+}
+
+.scroll {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 400px;
+}
+
+.scroll1 {
+    overflow-x: hidden;
+}
+
+
+
+
+.call-info button {
+    background-color: aqua;
+    border: 0.5px;
+    border-radius: 0;
+    border-style: solid;
+    border-color: blueviolet;
+    margin-bottom: 20px;
+    width: 130px;
+    height: 25px;
+}
+
+.myvideo {
+    margin-top: 12px;
+}

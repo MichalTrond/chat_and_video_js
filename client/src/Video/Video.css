@@ -1,0 +1,19 @@
+.video {
+    background-color: rgb(180, 177, 170);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.call-info button {
+    background-color: aqua;
+    border: 0.5px;
+    border-radius: 0;
+    border-style: solid;
+    border-color: blueviolet;
+    margin: 50px;
+}

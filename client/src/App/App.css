@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+  display: block;
+}
+
+.My-form {
+  text-align: center;
+  padding: 10px;
+  align-items: 'center';
+  flex: 2;
+  background-color: 'white';
+  justify-content: 'center';
+}
+
+.My-form input {
+  border-color: rgb(31, 167, 167);
+  background-color: rgb(197, 190, 190);
+}
+
+.My-form button {
+  text-align: center;
+}
